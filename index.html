@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Text Animation</title>
+    <meta name="description" content="HTML5 boilerplate created with the CLI by Lazyend">
+    <meta name="author" content="">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+
+    <ul class="fly-in-text hidden">
+        <li>H</li>
+        <li>E</li>
+        <li>L</li>
+        <li>L</li>
+		<li>O</li>
+		<li>!</li>
+        
+    </ul>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+
+        $(function() {
+
+            setTimeout(function() {
+                $('.fly-in-text').removeClass('hidden');
+            }, 500);
+
+        })();
+
+    </script>
+
+</body>
+</html>
+  
